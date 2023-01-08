@@ -1,0 +1,21 @@
+public class MainProgram
+{
+  public static void main(String[] args) {
+		Alibaba alibaba_item1, alibaba_item2;
+		Item_1 item info1=new Item_1("Plane Tshirt",99,"sold out");
+		Item_2 item info2=new Item_2("Taslan Short",100,"sold out");
+
+		alibaba_item1=item info1;
+		System.out.println(alibaba_item1.item_info());
+		System.out.println("\nProduct name: "+ alibaba_item1.getProductName());
+		System.out.println("Item price: "+alibaba_item1.getPrice());
+		System.out.println("item info: "+item info1.getItem Info());	
+
+		alibaba_item2=item info2;
+		System.out.println(alibaba_item2.item_info());
+		System.out.println("\nProduct name: "+ alibaba_item2.getProductName());
+		System.out.println("Item price: "+ alibaba_item2.getPrice());
+		System.out.println("item info: "+item info2.getItem Info());	
+	}
+}
+
